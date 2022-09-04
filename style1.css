@@ -1,0 +1,421 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+        font-size: 62.5%;
+}
+.clear{
+        clear: both;
+
+}
+/* nav{
+    border: 1.2px solid rgb(170, 159, 159);
+} */
+nav ul li{
+    display: inline-block;
+    font-size: 25px;
+    margin: 15px;
+    margin-left: 47px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    display: inline-block;
+}
+nav ul{
+    padding: 23px;
+    display: flex;
+    align-items: center;
+}
+nav ul img{
+    width: 100px;
+    height: 47px;
+}
+.contact ul li{
+   /* display: flex; */
+   /* align-items: center; */
+   display: inline-block;
+   margin: 1.5% 6% 0% 0%;
+   font-size: 25px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.about a{
+    color: red;
+}
+main {
+    min-height: calc(100vh - 120px);
+    max-height: calc(200vh - 12vh - 47px);
+    margin-left: 8.33333vw;
+    margin-right: 8.33333vw;
+    margin-bottom: 8.33333vw;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d12470425ddfa000196b66d/1568906425734-ADN28ISCHPV0A0ERCZ8Z/Screenshot+2019-09-19+at+17.18.32.jpg?format=1500w");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+.text-bold h1{
+    font-size: 3rem;
+    line-height: 1.4;
+    margin: 2em 345px 0.8em 345px
+}
+.text-bold h1 a{
+    text-decoration: none;
+}
+.text-lite p{
+    font-size: 1.7rem;
+    line-height: 1.4;
+    margin: 2em 345px 0.8em 345px
+}
+.box{
+    width: 55.33333vw;
+    height: 55.33333vw;
+    float: right;
+    background-color: #fbffa7;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    display: flex;
+    background-image: url("https://ableton-production.imgix.net/about/photo-2.jpg?dpr=2.0&fit=crop&h=180&ixjsv=1.1.3&q=50&w=180");
+
+} 
+  
+.box img{
+    position: relative;
+    width: 45.66667vw;
+    height: 41.66667vw;
+    margin-left: 8.33333vw;
+    top: 17vh;
+    right: 104vh;
+}
+.text-bold-1 h1{
+    font-size: 3rem;
+    line-height: 1.4;
+    margin: 2em 345px 0.8em 345px
+}
+.text-bold-1 p{
+    font-size: 1.7rem;
+    line-height: 1.4;
+    margin: 2em 345px 0.8em 345px
+}
+
+.image{
+   
+    width: 55.66667vw;
+    height: 27.66667vw;
+    margin-left: 22.33333vw;
+}
+.why h1 {
+    
+    margin-left: 336px;
+    margin-top: 0vh;
+}
+.vedio{
+height: 68vh;
+border: none;
+}
+.text-bold-2 h1{
+    font-size: 3rem;
+    line-height: 1.4;
+    margin: 2em 345px 0.8em 345px
+}
+.text-bold-2 p{
+    font-size: 1.7rem;
+    line-height: 1.4;
+    margin: 2em 345px 0.8em 345px
+}
+.box1{
+    width: 58.33333vw;
+    height: 28.33333vw;
+    float: left;
+    background-color: #B6FFC0;
+    background-repeat: no-repeat;
+    background-position: 39% 81%;
+    display: flex;
+    background-image: url("https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2.0&fit=crop&h=150&ixjsv=1.1.3&q=50&w=260");
+} 
+.box2{
+    width: 58.33333vw;
+height: 35.33333vw;
+float: left;
+background-color: #B6FFC0;
+background-repeat: no-repeat;
+background-position: 39% 41%;
+display: flex;
+    background-image: url("	https://ableton-production.imgix.net/about/photo-4.jpg?dpr=2.0&fit=crop&h=150&ixjsv=1.1.3&q=50&w=260");
+    
+} 
+.box1 img{
+    width: 117vh;
+    height: 117vh;
+    position: relative;
+    left: 120vh;
+    top: 19vh
+}
+
+.text-bold-3 h1{
+    font-size: 2rem;
+    line-height: 1.4;
+    margin: 2em 345px 0.8em 345px
+}
+.text-bold-3 p{
+    font-size: 1.7rem;
+    line-height: 1.4;
+    margin: 2em 345px 0.8em 345px
+}
+.clear{
+    clear: both;
+    
+}
+.nav1{ 
+    width: 68.33333vw;
+    height: 35.33333vw;
+   margin-left: 35vh;
+    background-color: #B6FFC0;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    background-image: url("https://ableton-production.imgix.net/about/poster-meet-the-makers.jpg?dpr=2.0&fit=crop&h=271&ixjsv=1.1.3&q=50&w=524.5");
+}
+.para{
+    font-size: 1.7rem;
+    line-height: 1.4;
+    margin: 2em 345px 0.8em 345px
+    
+}
+
+/* .purpal1 img{
+    position: absolute;
+    width: 38.66667vw;
+    height: 32.66667vw;
+    margin-left: 8.33333vw;
+    top: 728vh;
+    right: 0vh;
+}
+.purpal2 img{
+    position: absolute;
+    width: 32.66667vw;
+    height: 24.66667vw;
+    margin-left: 8.33333vw;
+    top: 738vh;
+    left: 15vh;
+} */
+/* .box3{
+    /* position: relative;
+    width: 58.66667vw;
+    height: 55.66667vw;
+    margin-left: 8.33333vw;
+    top: 704vh;
+    left: 35vh;
+    
+    background-color: #D5B3FF; */
+/* .container1 {
+   
+} */
+.box7{
+    width: 58.3333vw;
+    height: 28.3333vw;
+    background-color: rgb(213, 179, 255);
+    background-repeat: no-repeat;
+    background-position: 57% 72%;
+    display: flex;
+    margin: auto;
+} 
+.box8{
+    width: 58.3333vw;
+    height: 28.3333vw;
+    background-color: rgb(213, 179, 255);
+    background-repeat: no-repeat;
+    background-position: 39% 41%;
+    display: flex;
+    margin: auto;
+
+    
+} 
+.box7 img{
+    width: 100vh;
+    height: 65vh;
+    position: relative;
+    left: 75vh;
+    top: 43vh;
+}
+.box8 img{
+    width: 86vh;
+    height: 52vh;
+    position: relative;
+    right: 43vh;
+    bottom: 17vh;
+}
+.clear{
+    clear: both;
+}
+.text-bold-4 h1{
+    font-size: 3rem;
+    line-height: 1.4;
+    margin: 5em 345px 0.8em 345px
+    
+}
+/* .container1 {
+    
+    
+    height: 57.66667vw;
+    border: 2px solid;
+} */
+.nav2 {
+    width: 68.33333vw;
+    height: 35.33333vw;
+    margin-left: 35vh;
+    background-color: #B6FFC0;
+    background-repeat: no-repeat;
+    display: flex;
+    background-image: url("");
+}
+  footer {
+    margin-top: 15vh;
+    height: 75vh;
+    background: rgb(135, 190, 229);
+    border: 2px solid black;
+}
+
+   
+
+.footerimage1 img{
+    width: 188px;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+.column3{
+    margin: 30px;
+}
+.RAJ {
+    color: black;
+}
+ul li{
+    margin: 10px 20px 10px 30px;
+    list-style: none; 
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px
+}
+h3{
+    margin-left: 30px;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    margin-left:30px ;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px
+}
+
+
+.main-footer__form__group{
+    margin: 30px;
+    /* padding: 20px; */
+}
+.email{
+    padding: 10px 100px 10px 20px;
+    background: lightgrey;
+}
+.column3{
+    /* float: right; */
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+
+}
+.oaa{
+    margin-bottom: 120px;
+    margin-left: 70px;
+}
+.RAJ{
+    margin-left: 0;
+    margin-bottom: 150px;
+}
+.set{
+    margin-left: 80px;
+    font-size: 30px;
+}
+.main-footer__button{
+    margin: 2px 13px 0 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: blue;
+    color: #fff;
+}
+/* @media screen and ( max-width:1496px){
+.image {
+        position: absolute;
+        width: 55.6667vw;
+        height: 27.6667vw;
+        margin-left: 22.3333vw;
+        top: 331vh;
+        left: 0vh;}
+.container img {
+            position: absolute;
+            width: 41.6667vw;
+            height: 38.6667vw;
+            margin-left: 8.33333vw;
+            top: 480vh;
+            left: 99vh;
+        }
+.box3 {
+            position: absolute;
+            width: 58.66667vw;
+            height: 55.66667vw;
+            margin-left: 8.33333vw;
+            top: 798vh;
+            left: 33vh;
+            background-color: #D5B3FF;
+        }  
+.purpal1 img {
+            position: absolute;
+            width: 38.6667vw;
+            height: 32.6667vw;
+            margin-left: 8.33333vw;
+            top: 826vh;
+            right: 0vh;
+        }    
+.purpal2 img {
+            position: absolute;
+            width: 32.6667vw;
+            height: 24.6667vw;
+            margin-left: 8.33333vw;
+            top: 839vh;
+            left: 9vh;
+        }         
+} */
+/* @media screen and (min-width:375px){
+    nav ul {
+        padding: 8px;
+        display: flex;
+        align-items: center;
+    }
+    nav ul img {
+        width: 53px;
+    height: 47px;
+    }
+    nav ul li {
+        display: inline-block;
+        font-size: 15px;
+        margin: 11px -8px 6px 13px;
+    }
+    main {
+        min-height: calc(100vh - 464px);
+    }
+
+
+} */
